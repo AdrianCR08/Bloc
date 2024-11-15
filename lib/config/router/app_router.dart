@@ -18,7 +18,7 @@ final appRouter = GoRouter(
     builder: (context, state) => const MultipleCubitScreen(),
     ),
     GoRoute(path: '/guest-bloc',
-    builder: (context, state) => const GuestScreen(),
+    builder: (context, state) => const GuestsScreen(),
     ),
     GoRoute(path: '/pokemon-bloc',
     builder: (context, state) => const PokemonScreen(),
